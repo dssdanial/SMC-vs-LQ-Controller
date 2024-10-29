@@ -138,4 +138,10 @@ The control input shows that:
    - For robustness against disturbances and model uncertainties, **SMC** offers better control but requires additional tuning to minimize oscillations.
 
 
+## 8. Conclusion
+
+This report demonstrates the behavior of **LQR** and **SMC** controllers on a linearized inverted pendulum model. The **LQR controller** provides smoother, energy-efficient control, while **SMC** offers robust performance with aggressive corrections. Dead zones improve smoothness but introduce oscillations, highlighting the trade-offs in controller design.
+
+Further work can focus on extending these controllers to the **nonlinear system model** to evaluate robustness and control accuracy in a more realistic setting.
+
 
