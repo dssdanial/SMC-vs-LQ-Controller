@@ -1,5 +1,6 @@
 # SMC-vs-LQR-Controller
 Analysis and comparison of two controllers on a linearized system, Sliding-Mode vs Linear Quadratic Controller. In this case study, we focused on comparing two control approaches: Linear Quadratic Regulator (LQR) and Sliding Mode Control (SMC) on a linearized model of the inverted pendulum system. Applying LQR and SMC to the linearized model allows for a clearer analysis of their respective control laws, stability margins, and robustness against disturbances while avoiding the computational complexity of a fully nonlinear model.
+![Inverted Pendulum_v3](https://github.com/user-attachments/assets/517605a6-f830-4f11-b6b8-6e3289a749b0)
 
 ### Motivations:
 - Understand the fundamental behavior of LQR and SMC controllers in stabilizing an inherently unstable system.
